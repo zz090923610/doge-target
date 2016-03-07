@@ -6,7 +6,7 @@ Franz Doge Model 1 便携路由器的 target 源码。
 
 1，首先到 https://github.com/openwrt/openwrt 处 clone 得到 openwrt 的整套 buildroot 源码。
 
-2，克隆本工程到本地，讲 target 目录复制合并到 openwrt 目录下的 target 目录。
+2，克隆本工程到本地，将 target 目录复制合并到 openwrt 目录下的 target 目录。
 
 3，使用touch命令更新几个文件的时间信息：
 
