@@ -2,6 +2,8 @@
 
 Franz Doge Model 1 便携路由器的 target 源码。
 
+如需要初始版本的固件，请到 https://github.com/zz090923610/doge-firmware 处下载。
+
 使用方法，
 
 1，首先到 https://github.com/openwrt/openwrt 处 clone 得到 openwrt 的整套 buildroot 源码。
