@@ -2,11 +2,16 @@
 
 Franz Doge Model 1 便携路由器的 target 源码。
 
+如需要初始版本的固件，请到 https://github.com/zz090923610/doge-firmware 处下载。
+
 使用方法，
 
 1，首先到 https://github.com/openwrt/openwrt 处 clone 得到 openwrt 的整套 buildroot 源码。
-2，克隆本工程到本地，讲 target 目录复制合并到 openwrt 目录下的 target 目录。
+
+2，克隆本工程到本地，将 target 目录复制合并到 openwrt 目录下的 target 目录。
+
 3，使用touch命令更新几个文件的时间信息：
+
 	cd openwrt目录
 	touch target/linux/ramips/Makefile 
 	touch target/linux/ramips/mt7620/target.mk 
